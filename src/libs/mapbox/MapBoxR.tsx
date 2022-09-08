@@ -8,7 +8,7 @@ import {
 } from "@chakra-ui/react";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
+mapboxgl.accessToken = "pk.eyJ1IjoiZmFjdWFyaWFzbGEiLCJhIjoiY2w0MWp5Z3ljMDJscDNibHllZHFpb2kzaSJ9.7FD_nN-MSZ2XKLI9BwYrTA";
 const MapBoxR = ({ formLat, formLng }: any) => {
   const mapContainer = useRef<any>(null);
   const map = useRef<any>(null);
