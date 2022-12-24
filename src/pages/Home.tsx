@@ -93,7 +93,7 @@ export const Home = () => {
             Mascotas perdidas cerca tuyo
           </Heading>
           <Text textAlign="center" color="gray.400" fontWeight={500}>
-            (A 1km de radio)
+            (A 10km de radio)
           </Text>
         </Stack>
         {!dataExist && (
