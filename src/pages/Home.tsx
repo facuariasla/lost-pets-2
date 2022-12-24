@@ -90,7 +90,7 @@ export const Home = () => {
       <Stack p={6} gap={[2, 8]}>
         <Stack>
           <Heading fontSize={[42, null, 52]} textAlign="center">
-            Mascotas perdidas cerca tuyo
+            Mascotas perdidas cerca de ti
           </Heading>
           <Text textAlign="center" color="gray.400" fontWeight={500}>
             (A 10km de radio)
