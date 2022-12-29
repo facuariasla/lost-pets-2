@@ -9,9 +9,15 @@ import {
   useColorModeValue,
   useColorMode,
   Stack,
+  Text,
+  Image,
 } from "@chakra-ui/react";
 import { RiMenu3Fill, RiMoonClearLine, RiSunLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import { Link as ChakraLink } from "@chakra-ui/react";
+import pawerblackicon from "../../assets/pawerlogo_black.svg";
+import pawerwhiteicon from "../../assets/pawerlogo_white.svg";
+import { FaGratipay } from "react-icons/fa";
 
 const MenuBurger = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -74,6 +80,21 @@ const MenuBurger = () => {
                   Cerrar sesión
                 </MenuItem>
               </Link>
+
+              <ChakraLink href="https://pawer.cl/" target="_blank">
+                <MenuList fontWeight="500" transition="all 0.3s">
+                  <Stack justify="center" alignItems="center" direction="row">
+                    <Text>Pawer!</Text>
+                    <Image
+                      boxSize="20px"
+                      objectFit="cover"
+                      src={
+                        colorMode === "light" ? pawerblackicon : pawerwhiteicon
+                      }
+                    />
+                  </Stack>
+                </MenuList>
+              </ChakraLink>
             </Stack>
           ) : (
             <Stack>
@@ -83,6 +104,20 @@ const MenuBurger = () => {
               <Link to="/signup">
                 <MenuItem fontWeight="500">Registrarse</MenuItem>
               </Link>
+              <ChakraLink href="https://pawer.cl/" target="_blank">
+                <MenuList fontWeight="500" transition="all 0.3s">
+                  <Stack justify="center" alignItems="center" direction="row">
+                    <Text>Pawer!</Text>
+                    <Image
+                      boxSize="20px"
+                      objectFit="cover"
+                      src={
+                        colorMode === "light" ? pawerblackicon : pawerwhiteicon
+                      }
+                    />
+                  </Stack>
+                </MenuList>
+              </ChakraLink>
             </Stack>
           )}
 
