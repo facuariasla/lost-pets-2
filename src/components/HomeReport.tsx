@@ -88,7 +88,7 @@ const HomeReport = ({ petData }: any) => {
                 <FormLabel>Tu nombre</FormLabel>
                 <Input
                   ref={initialRef}
-                  placeholder="Ej: Juan Peréz"
+                  placeholder="Ej: María Gonzalez"
                   required
                   maxLength={100}
                   type="text"
@@ -99,7 +99,7 @@ const HomeReport = ({ petData }: any) => {
               <FormControl mt={4}>
                 <FormLabel>Tu teléfono</FormLabel>
                 <Input
-                  placeholder="Ej: 299 4112233"
+                  placeholder="Ej: +549 12345678"
                   required
                   minLength={7}
                   maxLength={16}
@@ -112,7 +112,7 @@ const HomeReport = ({ petData }: any) => {
                 <FormLabel>Descripción</FormLabel>
                 <Textarea
                   resize="none"
-                  placeholder="Ej: Lo estoy reteniendo en la esquina de Avenida e Irigoyen..."
+                  placeholder="Ej: Lo estoy reteniendo en la esquina de Avenida e Irigoyen (...)"
                   maxLength={500}
                   name="description"
                 />

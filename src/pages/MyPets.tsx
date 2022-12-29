@@ -49,7 +49,7 @@ const MyPets = () => {
         )}
 
         {!dataExist && (
-          <Text fontSize={20}>Aún no se te pierde ninguna mascota</Text>
+          <Text fontSize={20}>No tienes ninguna mascota registrada como perdida 😀</Text>
         )}
 
         <SimpleGrid

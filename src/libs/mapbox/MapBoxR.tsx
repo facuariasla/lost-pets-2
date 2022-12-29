@@ -76,7 +76,7 @@ const MapBoxR = ({ formLat, formLng }: any) => {
   return (
     <Stack align="center" justify="center">
       <Text w="90%" textAlign="center" fontWeight="500">
-        Clickeá o tocá donde fue la última vez que viste a tu mascota (Las
+        Clickea o toca donde fue la última vez que haz visto a tu mascota (Las
         coordenadas no se van a compartir con nadie)
       </Text>
       <div ref={mapContainer} className="map-container" />
@@ -89,7 +89,7 @@ const MapBoxR = ({ formLat, formLng }: any) => {
         onClick={myLocation}
         bgColor={buttonGreenie}
       >
-        Ir a mi ubicación aproximada
+        Ir a mi ubicación
       </Button>
       <Stack w="100%"></Stack>
     </Stack>

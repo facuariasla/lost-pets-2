@@ -177,7 +177,7 @@ const EditPet = () => {
                   name="description"
                   resize="none"
                   id="description"
-                  placeholder="Caniche con camiseta de Lanús, amistoso con las personas, asustadizo (...)"
+                  placeholder="Caniche con pechera naranja, amistoso con las personas, asustadizo (...)"
                   isRequired
                   value={petData?.description}
                   onChange={(e) =>
